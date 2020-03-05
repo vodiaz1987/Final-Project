@@ -1,0 +1,56 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    color: white;
+}
+
+p, h2,h3,h4,h5 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h2 {  font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: auto;
+}
+.nav-links{
+    margin-top: auto;
+    padding-left: 30px;
+    font-size: 15px;
+    color: grey;
+}
+div1 {
+    margin-top: auto;
+}
+
+footer  {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    min-width: auto;
+  }
+
+.general{
+    background-image: url('./images/map.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+   
+}
+.text{
+    display: inline-block;
+    text-align: center;
+    align-self: stretch;
+    padding-top: 40%;
+}
