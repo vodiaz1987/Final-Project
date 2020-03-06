@@ -1,0 +1,51 @@
+/* Title is in a diffenrt font-family */
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    color: white;
+}
+/* the rest of the text is in Lato font-family */
+p, h2,h3,h4,h5 {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+h2 {  font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+
+/* To separate the plane icon with links on the right */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: auto;
+    margin-left: 1%;
+}
+
+/* To separate links. Need to find the way to change colour  */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    margin-right: 1%;
+}
+/* To center links and their font size*/
+.nav-links{
+    margin-top: auto;
+    padding-left: 30px;
+    font-size: 15px;
+    color: grey;
+}
+/* To customize footer*/
+footer  {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    min-width: auto;
+  }
+
+
+
+  
