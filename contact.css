@@ -5,16 +5,14 @@ h1 {
     color: white;
 }
 /* the rest of the text is in Lato font-family */
-p, h2,h3,h4,h5 {
+p, h3,h4,h5 {
     font-family: 'Lato', sans-serif;
     color: white;
 }
 
-h2 {  font-size: 20px;
+h2 {  font-size: 30px;
 }
-h3 {
-    font-size: 25px;
-}
+
 
 /* To separate the plane icon with links on the right */
 nav{
@@ -46,6 +44,11 @@ footer  {
     min-width: auto;
   }
 
-
+.form{
+    margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 50%;
+    margin-block-end: 30%;
+}
 
   
