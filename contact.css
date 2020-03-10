@@ -1,4 +1,4 @@
-/* Title is in a diffenrt font-family */
+/* Title is in a different font-family */
 h1 {
     font-family: 'Lobster', cursive;
     font-size: 90px;
@@ -11,6 +11,8 @@ p, h3,h4,h5 {
 }
 
 h2 {  font-size: 30px;
+    margin-left: 2%;
+
 }
 
 
@@ -40,15 +42,41 @@ ul{
 /* To customize footer*/
 footer  {
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     min-width: auto;
   }
+.footer-left{
+    margin-bottom: 0;
+}
+  /* about form details */
 
-.form{
+.box{
+    display: flex;
+    align-items: center;
+    margin-block-end: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-between;
+   
+}
+
+.content{
+    background-color: lightgrey;
+    margin-top: 5%;
+    margin-block-end: 5%;
+}
+  
+/* .form{
     margin-top: 10%;
     margin-left: 2%;
     margin-right: 50%;
-    margin-block-end: 30%;
+    margin-block-end: 30%; */
+/*     
+} */
+/* put image beside the form */
+.image{
+    vertical-align: middle;
+    
 }
 
   
