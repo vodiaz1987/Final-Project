@@ -1,13 +1,9 @@
 
-var name = document.getElementById("Name").value;
-var email = document.getElementById("Email").value;
-var message = document.getElementById("Message").value;
 
 function submitInput(){
-  return  $("contact-form submit").id;
-}
-if (submitInput()){
-
+  var name = document.getElementById("Name").value;
+  var email = document.getElementById("Email").value;
+  var message = document.getElementById("Message").value;  
   if (!name) {
     alert ("Enter your name")
   } else if (!email) {
