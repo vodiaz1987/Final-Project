@@ -54,6 +54,7 @@ footer  {
     background-size: cover;
     height: 100vh;
     margin: 0;
+    margin-top: 2%;
 }
 
 /* Text refers all content inside body including the button */

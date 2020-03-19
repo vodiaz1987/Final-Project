@@ -1,89 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="contact.css">
-    <script src="./contact.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap" rel="stylesheet">
-    <title>NextTrip</title>
-</head>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="contact.css">
+      <script src="./contact.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap" rel="stylesheet">
+      <title>NextTrip</title>
+  </head>
 
-<!-- Nav details  -->
-<body> 
-    <nav>
-        <!-- how to do a website link in an image -->
-        <a href="LandingPage.html">
-            <!-- plane image -->
-            <img src="./plane.png" alt="plane" width="40">
-        </a>
+  <!-- Nav details  -->
+  <body> 
+      <nav>
+          <!-- how to do a website link in an image -->
+          <a href="LandingPage.html">
+              <!-- plane image -->
+              <img src="./plane.png" alt="plane" width="40">
+          </a>
 
-        <ul id="nav_bar">
-            <li class="nav-links"><a href="howitworks.html">How it works</a></li>
-            <li class="nav-links"><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+          <ul id="nav_bar">
+              <li class="nav-links"><a href="howitworks.html">How it works</a></li>
+              <li class="nav-links"><a href="contact.html">Contact</a></li>
+          </ul>
+      </nav>
 
-<!-- body of each page  -->
-<div class ="content">
+  <!-- body of each page  -->
+  <div class ="content">
 
 
-<h2>
-    Contact Form
-</h2>
+  <h2>
+      Contact Form
+  </h2>
 
-<div class="box">
-<form id ="contact-form")>
-    <div class="form-group">
-        <label for="Name">Name</label>
-        <input type=text class="form-control" id="Name" placeholder = "Name Surname">
+  <div class="box">
+  <form id ="contact-form">
+      <div class="form-group">
+          <label for="Name">Name</label>
+          <input type=text class="form-control" id="Name" placeholder = "Name Surname">
+        </div>
+
+      <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder = "you@email.com">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
       </div>
 
-    <div class="form-group">
-      <label for="Email">Email</label>
-      <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder = "you@email.com">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    </div>
-
-    <div class="form-group">
-        <label for="Message">Message</label>
-        <input type=form-control class="form-control" id="Message" style="height:200px">
+      <div class="form-group">
+          <label for="Message">Message</label>
+          <input type=form-control class="form-control" id="Message" style="height:200px">
+        </div>
+      <div class="form-group">
+          <label for="exampleFormControlFile1"><label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
       </div>
-    <div class="form-group">
-        <label for="exampleFormControlFile1"><label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      
+      <!-- <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="check">
+        <label class="form-check-label" for="check">I'm not a robot</label>
+      </div> -->
+      
+
+      <button onclick="submitInput()" type="submit" class="btn btn-info btn-lg" id="ButSend">Send</button>
+
+    </form>
+
+
+    <div class="image">
+      <img src="./planning.jpg" alt="planning" height=400px>
     </div>
-    
-    <!-- <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="check">
-      <label class="form-check-label" for="check">I'm not a robot</label>
-    </div> -->
-    
 
-    <button onclick="submitInput()" type="submit" class="btn btn-info btn-lg" id="ButSend">Send</button>
-
-  </form>
-
-
-  <div class="image">
-     <img src="./planning.jpg" alt="planning" height=400px>
   </div>
 
-</div>
+  </div>
+  </body>
 
-</div>
-</body>
-
-<!-- Footer -->
-<footer>
-  <ul class="footer-left">
-    <div> Contact us in Code First Girls classes!</div>
-    </ul>
-    <ul class="footer-right">
-        <img src="./coding_logo.jpg" alt="coding_logo" width="30">
-        Coding Genius S.A.
-    </ul>
- </footer>
-</html>
+  <!-- Footer -->
+  <footer>
+    <ul class="footer-left">
+      <div> Contact us in Code First Girls classes!</div>
+      </ul>
+      <ul class="footer-right">
+          <img src="./coding_logo.jpg" alt="coding_logo" width="30">
+          Coding Genius S.A.
+      </ul>
+  </footer>
+  </html>

@@ -62,7 +62,7 @@ footer  {
 
 .content{
     background-color: lightgrey;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-block-end: 5%;
 }
   
@@ -78,5 +78,11 @@ footer  {
     vertical-align: middle;
     
 }
-
+  
+  @media only screen and (min-width: 768px) {
+    .image {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
   
